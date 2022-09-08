@@ -1,9 +1,8 @@
 # Reproducible Research with R
 
-
 <a href='https://cascadiarconf.com/img/logo_2022.png' align="right" height="139" /></a>
 
-## Oluwafemi Oyedele| CascardiaR:conf(2022)
+## Oluwafemi Oyedele\| CascardiaR:Conf(2022)
 
 ## Overview
 
@@ -13,11 +12,11 @@ This talk is for those who want to learn how to carryout reproducible research i
 
 This talk will be appropriate for you if you answer yes to any of these questions:
 
-Have you used a quarto documents before for literate programming ?
+-   Have you used a quarto documents before for literate programming ?
 
-Are you interested in exploring the wide spectrum of documents that can be produced with Quarto, including static documents, websites, and slides?
+-   Are you interested in exploring the wide spectrum of documents that can be produced with Quarto, including static documents, websites, and slides?
 
-Have you used git and github before for version control ?
+-   Have you used git and github before for version control ?
 
 ## Schedule
 
