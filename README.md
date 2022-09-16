@@ -31,7 +31,9 @@ This talk will be appropriate for you if you answer yes to any of these question
 
 ## Presenter
 
-Oluwafemi Oyedele is holds a master Degree in Agrometeorology from the University of Ibadan, Nigeria, and he is currently a research fellow at the International Institute of Tropical Agriculture and he is a data enthusiast.
+\*\*Oluwafemi Oyedele\*\* holds a master Degree in Agrometeorology from the University of Ibadan, Nigeria, and he is currently a research fellow at the International Institute of Tropical Agriculture and he is a data enthusiast.
+
+The slides can be accesss here \[https://bb1464.github.io/CascardiaRConf2022/\]
 
 ------------------------------------------------------------------------
 
