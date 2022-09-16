@@ -1,0 +1,293 @@
+---
+title: "Reproducible Research in R"
+author: "Oluwafemi Oyedele"
+subtitle: "Research Fellow, \nInternational Institute of Tropical Agriculture (IITA)"
+footer:  "[Reproducible Research in R](https://github.com/BB1464/CascardiaRConf2022)"
+logo: "img/cascadia_2022.png"
+format: 
+   revealjs: 
+    theme: [solarized, slides.scss]
+    highlight-style: a11y
+    transition: fade
+    slide-number: true
+    chalkboard: true
+editor: visual
+execute:
+  freeze: auto
+---
+
+<iframe width="1500" height="560" src="https://www.youtube.com/embed/s3JldKoA0zw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+</iframe>
+
+[Credit: [Ignasi Bartomeus, PhD](https://bartomeuslab.com/)]
+
+::: notes
+- Please I want you to listen to a short documentary on reproducible research with R using literate programming.
+:::
+
+---
+
+::: notes
+- **A reason researchers often avoid making their research fully reproducible is that they are afraid other people will use their data and code to compete with them. I'll let Donoho et al. address this one:**
+
+
+**Reproducibility is not replication**
+
+**Replication** is a fundamental tenet of science, but there is increasing fear among scientists that too few scientific studies can be replicated.
+
+**Replication** is running a new study to show if and how results of a prior study hold.
+
+**Reproducibility** is about rerunning the same study and getting the same results.
+
+**Reproducibility means:**
+
+- **Transparent research practices**.
+
+- **Research is reproducible** when others can reproduce the results of a scientific study given only the original data, code, and documentation
+
+- Minimal barriers to verifying your results. Any study that isn't reproducible can be trusted only on faith.
+
+- **Reproducibility** is the ability to obtain identical results from the same statistical analysis and the same data
+
+- **Replicability** is key in every scientific enquiry
+
+- **Replicability** is the demarcation between science and non-science.
+
+- **Reproducibility** means that the same person (or different people) get the same results with the same data
+
+- Research result are considered replicable if there is sufficient information available for independent researchers to make the same findings using the same procedures with new data.
+
+- Reproducible research is more likely to be useful for other researchers than nonreproducible research. **i.e they are cited more frequently**.
+:::
+
+::: {layout="[[-1], [1], [-1]]"}
+![](img/reproducibility-graphic-online1.jpeg){fig-align="center" width="680"}
+:::
+
+---
+
+::: notes
+
+- **Research cycle process**
+
+- Literate Programming where the source code, data and text can be linked into one environment.
+
+- **data gathering**
+
+- **data analysis, and**
+
+- **results presentation**
+:::
+
+::: {layout="[[-1], [1], [-1]]"}
+![](img/researchcycle.jpg){fig-align="center" width="750"}
+:::
+
+---
+
+::: notes
+- Problems of Reproducible Research
+:::
+
+::: {layout="[[-1], [1], [-1]]"}
+![](img/natureCapture.png){fig-align="center" width="750"}
+:::
+
+---
+
+::: notes
+- My previous workflow of during research
+:::
+
+::: {layout="[[-1], [2], [-1]]"}
+![](img/workflow.png){fig-align="center" width="1400"}
+:::
+
+---
+
+::: notes
+- Producible spectrum
+:::
+
+::: {layout="[[-1], [1], [-1]]"}
+![](img/repro-spectrum.jpg){fig-align="center" width="4000" height="4000"}
+:::
+
+---
+
+::: notes
+- It is a multi-language, next generation of R markdown
+- It includes dozens of new features and capabilities
+- Able to render existing R markdown
+:::
+
+::: {layout="[[-1], [1], [-1]]"}
+![](img/preview - Copy.jpeg){fig-align="center" width="1000"}
+:::
+
+---
+
+::: notes
+Quarto workflow
+:::
+
+::: {layout="[[-1], [1], [-1]]"}
+![](img/knitr-diagram.png){fig-align="center" width="1000"}
+:::
+
+---
+
+::: notes
+- The Readme file describe the entire project structure.
+:::
+
+::: {layout="[[-1], [1], [-1]]"}
+![](img/fig2.png){fig-align="center" width="500"}
+:::
+
+---
+
+::: notes
+- **Install git on your system**
+
+- Git is a version control systems that keep track of changes we make to our files and allows us to access previous versions if we want to.
+
+- Initialize a project with a git
+:::
+
+::: {layout="[[-1], [1], [-1]]"}
+![](img/git_logo.png){fig-align="center" width="1000"}
+:::
+
+---
+
+::: notes
+
+- GitHub is an interface and cloud hosting service built on top of the Git version control system.
+
+
+- **Create a github account with your username and password**
+
+- GitHub stores the data remotely
+
+:::
+
+
+::: {layout="[[-1], [1], [-1]]"}
+![](img/github.png){fig-align="center" width="550"}
+:::
+---
+
+::: {layout="[[-1], [1], [-1]]"}
+![](img/carbon (8).png){fig-align="center" width="2000"}
+:::
+
+---
+
+::: notes
+
+- **Github collaboration in a project**
+:::
+
+::: {layout="[[-1], [1], [-1]]"}
+![](img/Git-process1.png){fig-align="center" width="1000"}
+:::
+
+---
+
+::: notes
+- Thank you very much and I am happy to answer any question
+:::
+
+::: {layout="[[-1], [1], [-1]]"}
+![](img/Git-process2.png){fig-align="center" width="1000"}
+:::
+
+---
+
+::: {layout="[[-1], [1], [-1]]"}
+![](img/Git-process3.png){fig-align="center" width="1000"}
+:::
+
+---
+
+::: {layout="[[-1], [1], [-1]]"}
+![](img/Git-process4.png){fig-align="center" width="1000"}
+:::
+
+---
+
+::: {layout="[[-1], [1], [-1]]"}
+![](img/Git-process5.png){fig-align="center" width="1000"}
+:::
+
+---
+
+::: {layout="[[-1], [1], [-1]]"}
+![](img/Git-process6.png){fig-align="center" width="1000"}
+:::
+
+---
+
+::: {layout="[[-1], [1], [-1]]"}
+![](img/Git-process7.png){fig-align="center" width="1000"}
+:::
+
+---
+
+# Among other advantages
+
+::: incremental
+- Forces you to double-check your stuff (you share data and code)
+
+- Your future-self will thank you (repeat analyses, write papers)
+
+- By being reproducible, you build up your credibility and reputation
+
+- Reproducibility favors trust in the scientific endeavour
+
+- Faster scientific progress
+:::
+
+---
+
+# What do we need to make research reproducible ?
+
+::: incremental
+- Data in some coherent format
+
+- Programming language (R, Python, Julia e.t.c.)
+
+- Text, figures and code in same environment (litterate programming)
+
+- Continuous and transparent editions and updates (version control)
+:::
+
+---
+
+## **About me**
+
+::: columns
+::: {.column width="60%"}
+- I am a Agrometeorologist and Crop Simulation modeler
+
+- I am a member of R4DS online learning community
+
+- I am also a active member of the TidyTuesday project
+
+- `r fontawesome::fa("linkedin")`: [Oluwafemi Oyedele](https://www.linkedin.com/in/oluwafemioyedele/)
+
+- `r fontawesome::fa("twitter")`: [@OluwafemOyedele](https://twitter.com/OluwafemOyedele) `r emoji::emoji("thumbsup")`
+
+- `r fontawesome::fa("github")` [github.com/BB1464](https://github.com/BB1464/BB1464)
+:::
+
+::: {.column width="40%"}
+![](img/pix.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Dr. Maria Tackett" width="300"}
+:::
+:::
+
+::: notes
+- A little bit about myself
+:::
