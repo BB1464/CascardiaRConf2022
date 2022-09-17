@@ -30,7 +30,7 @@ execute:
 ---
 
 ::: notes
-- **A reason researchers often avoid making their research fully reproducible is that they are afraid other people will use their data and code to compete with them. I'll let Donoho et al. address this one:**
+- **A reason researchers often avoid making their research fully reproducible is that they are afraid other people will use their data and code to compete with them**
 
 
 **Reproducibility is not replication**
@@ -68,6 +68,17 @@ execute:
 
 ---
 
+
+::: notes
+- Problems of Reproducible Research
+:::
+
+::: {layout="[[-1], [1], [-1]]"}
+![](img/natureCapture.png){fig-align="center" width="750"}
+:::
+
+---
+
 ::: notes
 
 - **Research cycle process**
@@ -83,16 +94,6 @@ execute:
 
 ::: {layout="[[-1], [1], [-1]]"}
 ![](img/researchcycle.jpg){fig-align="center" width="750"}
-:::
-
----
-
-::: notes
-- Problems of Reproducible Research
-:::
-
-::: {layout="[[-1], [1], [-1]]"}
-![](img/natureCapture.png){fig-align="center" width="750"}
 :::
 
 ---
