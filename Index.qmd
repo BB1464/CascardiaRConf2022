@@ -1,5 +1,5 @@
 ---
-title: "Reproducible Research in R"
+title: "Reproducible Research with R"
 author: "Oluwafemi Oyedele"
 subtitle: "Research Fellow, \nInternational Institute of Tropical Agriculture (IITA)"
 footer:  "[Reproducible Research in R](https://github.com/BB1464/CascardiaRConf2022)"
